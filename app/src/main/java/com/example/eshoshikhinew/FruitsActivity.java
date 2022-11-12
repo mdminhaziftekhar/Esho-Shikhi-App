@@ -28,13 +28,19 @@ public class FruitsActivity extends AppCompatActivity {
         banana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FruitsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.bananavid;
+                Intent i = new Intent(FruitsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         mango.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FruitsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.mangovid;
+                Intent i = new Intent(FruitsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         pineapple.setOnClickListener(new View.OnClickListener() {
@@ -58,13 +64,19 @@ public class FruitsActivity extends AppCompatActivity {
         orange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FruitsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.orangevid;
+                Intent i = new Intent(FruitsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         kiwi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FruitsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.kiwivid;
+                Intent i = new Intent(FruitsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         avocado.setOnClickListener(new View.OnClickListener() {
