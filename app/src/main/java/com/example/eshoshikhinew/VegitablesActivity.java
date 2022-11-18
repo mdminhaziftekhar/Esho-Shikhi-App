@@ -26,40 +26,58 @@ public class VegitablesActivity extends AppCompatActivity {
         cucumber.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(VegitablesActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.cucumbervid;
+                Intent i = new Intent(VegitablesActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         pumpkin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(VegitablesActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.pumpkinvid;
+                Intent i = new Intent(VegitablesActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         tomato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(VegitablesActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.tomatovid;
+                Intent i = new Intent(VegitablesActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         pepper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(VegitablesActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.chillivid;
+                Intent i = new Intent(VegitablesActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         eggplant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(VegitablesActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.eggplantvid;
+                Intent i = new Intent(VegitablesActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         spinach.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(VegitablesActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.spinachvid;
+                Intent i = new Intent(VegitablesActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
     }

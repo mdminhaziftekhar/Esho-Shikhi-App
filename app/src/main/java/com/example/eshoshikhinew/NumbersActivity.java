@@ -29,61 +29,91 @@ public class NumbersActivity extends AppCompatActivity {
         one.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.onevid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         two.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.twovid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         three.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.threevid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         four.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.fourvid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         five.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.fivevid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         six.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.sixvid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         seven.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.sevenvid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         eight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.eightvid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         nine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.ninevid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         ten.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NumbersActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.tenvid;
+                Intent i = new Intent(NumbersActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
     }

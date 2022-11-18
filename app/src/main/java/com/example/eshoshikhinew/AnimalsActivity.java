@@ -29,70 +29,100 @@ public class AnimalsActivity extends AppCompatActivity {
         tiger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.tigervid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         penguin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.penguinvid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         zebra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.zebravid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         hen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.henvid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         elephant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.elephantvid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         snake.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.snakevid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         cow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.cowvid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         goat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.goatvid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         rabbit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.rabbitvid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
 
         cat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimalsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.catvid;
+                Intent i = new Intent(AnimalsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
     }

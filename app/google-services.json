@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "139000326235",
+    "project_id": "esho-shikhi-8e1fb",
+    "storage_bucket": "esho-shikhi-8e1fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139000326235:android:a11e3957cb910319ec777e",
+        "android_client_info": {
+          "package_name": "com.example.eshoshikhinew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139000326235-ob6h597mod885e4f07na5q5rhevd4ik2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw9IIZYi3-j6xt15NmXUwzRzJC_iSOCjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139000326235-ob6h597mod885e4f07na5q5rhevd4ik2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

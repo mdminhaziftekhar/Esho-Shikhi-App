@@ -27,49 +27,73 @@ public class ColorsActivity extends AppCompatActivity {
         red.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ColorsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.redcolorvid;
+                Intent i = new Intent(ColorsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         green.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ColorsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.greencolorvid;
+                Intent i = new Intent(ColorsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         blue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ColorsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.bluecolorvid;
+                Intent i = new Intent(ColorsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         yellow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ColorsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.yellowcolorvid;
+                Intent i = new Intent(ColorsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         orange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ColorsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.orangecolorvid;
+                Intent i = new Intent(ColorsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         black.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ColorsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.blackcolorvid;
+                Intent i = new Intent(ColorsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         purple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ColorsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.purplecolorvid;
+                Intent i = new Intent(ColorsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
         brown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ColorsActivity.this, VideoActivity.class));
+                String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.browncolorvid;
+                Intent i = new Intent(ColorsActivity.this, VideoActivity.class);
+                i.putExtra("vid", videoPath);
+                startActivity(i);
             }
         });
     }
