@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/white"
+    android:background="@drawable/bg"
     >
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -200,6 +200,35 @@
                     ></TextView>
             </androidx.appcompat.widget.LinearLayoutCompat>
         </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/mathsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="30dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/calculator"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:text="Maths"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                ></TextView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 </ScrollView>

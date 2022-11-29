@@ -18,6 +18,7 @@ import com.example.eshoshikhinew.AnimalsActivity;
 import com.example.eshoshikhinew.ColorsActivity;
 import com.example.eshoshikhinew.FruitsActivity;
 import com.example.eshoshikhinew.LettersActivity;
+import com.example.eshoshikhinew.MathsActivity;
 import com.example.eshoshikhinew.NumbersActivity;
 import com.example.eshoshikhinew.R;
 import com.example.eshoshikhinew.VegitablesActivity;
@@ -36,7 +37,7 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
 
-        LinearLayoutCompat color, numbers, animals, letters, fruits, vegitables;
+        LinearLayoutCompat color, numbers, animals, letters, fruits, vegitables, maths;
 
         color = root.findViewById(R.id.colorLayout);
         numbers = root.findViewById(R.id.numbersLayout);
@@ -44,6 +45,7 @@ public class HomeFragment extends Fragment {
         letters = root.findViewById(R.id.lettersLayout);
         fruits = root.findViewById(R.id.fruitsLayout);
         vegitables = root.findViewById(R.id.vegitableLayout);
+        maths = root.findViewById(R.id.mathsButton);
 
         color.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,6 +81,13 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), VegitablesActivity.class));
+            }
+        });
+
+        maths.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), MathsActivity.class));
             }
         });
 
