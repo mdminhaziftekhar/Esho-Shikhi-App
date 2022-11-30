@@ -1,269 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MathsActivity"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MathsActivity"
-    android:background="@drawable/bg"
+    android:background="@drawable/background"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.LinearLayoutCompat
+    <androidx.cardview.widget.CardView
+        android:id="@+id/additionButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/one"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="80dp"
-            android:src="@drawable/plus"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/two"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-    <EditText
-        android:id="@+id/ans3text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your Answer here"
-        android:textSize="25dp"
-       android:textColorHint="@color/black"
-        android:inputType="number"
-        ></EditText>
-
-    <Button
-        android:id="@+id/ans3button"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:text="Check"
-        android:textColor="@color/white"
+        android:backgroundTint="@color/darkOrange"
         android:layout_margin="20dp"
-        android:backgroundTint="@color/colorPrimary"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
         >
-    </Button>
 
-    <androidx.appcompat.widget.LinearLayoutCompat
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Addition Problems"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/substractionButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/two"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="80dp"
-            android:src="@drawable/plus"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/two"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-    <EditText
-        android:id="@+id/ans4text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your Answer here"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:inputType="number"
-        ></EditText>
-
-    <Button
-        android:id="@+id/ans4button"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:text="Check"
-        android:textColor="@color/white"
+        android:backgroundTint="@color/darkOrange"
         android:layout_margin="20dp"
-        android:backgroundTint="@color/colorPrimary"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
         >
-    </Button>
 
-    <androidx.appcompat.widget.LinearLayoutCompat
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Substraction Problems"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/multiplicationButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/three"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="80dp"
-            android:src="@drawable/plus"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/three"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-    <EditText
-        android:id="@+id/ans6text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your Answer here"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:inputType="number"
-        ></EditText>
-
-    <Button
-        android:id="@+id/ans6button"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:text="Check"
-        android:textColor="@color/white"
+        android:backgroundTint="@color/darkOrange"
         android:layout_margin="20dp"
-        android:backgroundTint="@color/colorPrimary"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
         >
-    </Button>
-    <androidx.appcompat.widget.LinearLayoutCompat
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplication Problems"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/divisionButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/three"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="80dp"
-            android:src="@drawable/plus"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/four"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-    <EditText
-        android:id="@+id/ans7text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your Answer here"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:inputType="number"
-        ></EditText>
-
-    <Button
-        android:id="@+id/ans7button"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:text="Check"
-        android:textColor="@color/white"
+        android:backgroundTint="@color/darkOrange"
         android:layout_margin="20dp"
-        android:backgroundTint="@color/colorPrimary"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
         >
-    </Button>
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/five"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="80dp"
-            android:src="@drawable/plus"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/five"
-            android:layout_margin="20dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            ></ImageView>
-    </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <EditText
-        android:id="@+id/ans10text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your Answer here"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:inputType="number"
-        ></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Division Problems"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp">
+        </TextView>
 
-    <Button
-        android:id="@+id/ans10button"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:text="Check"
-        android:textColor="@color/white"
-        android:layout_margin="20dp"
-        android:backgroundTint="@color/colorPrimary"
-        >
-    </Button>
+    </androidx.cardview.widget.CardView>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
-</ScrollView>
