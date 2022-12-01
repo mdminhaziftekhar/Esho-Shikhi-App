@@ -34,13 +34,13 @@ public class MulActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text8.getText().toString());
 
                 if (i == 8){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -56,13 +56,13 @@ public class MulActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text3.getText().toString());
 
                 if(i == 3){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -78,13 +78,13 @@ public class MulActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text4.getText().toString());
 
                 if(i == 4){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -101,13 +101,13 @@ public class MulActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text20.getText().toString());
 
                 if(i == 20){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -123,14 +123,14 @@ public class MulActivity extends AppCompatActivity {
 
                 int i = Integer.parseInt(text50.getText().toString());
 
-                if(i == 5){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                if(i == 50){
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(MulActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);

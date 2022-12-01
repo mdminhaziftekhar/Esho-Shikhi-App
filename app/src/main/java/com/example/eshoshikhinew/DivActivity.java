@@ -35,13 +35,13 @@ public class DivActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text1.getText().toString());
 
                 if (i == 1){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -57,13 +57,13 @@ public class DivActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text3.getText().toString());
 
                 if(i == 3){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -79,13 +79,13 @@ public class DivActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text4.getText().toString());
 
                 if(i == 4){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -102,13 +102,13 @@ public class DivActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text2.getText().toString());
 
                 if(i == 2){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -125,13 +125,13 @@ public class DivActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text5.getText().toString());
 
                 if(i == 5){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(DivActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);

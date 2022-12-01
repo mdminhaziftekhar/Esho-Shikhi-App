@@ -36,13 +36,13 @@ public class PlusActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text3.getText().toString());
 
                 if(i == 3){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -58,13 +58,13 @@ public class PlusActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text4.getText().toString());
 
                 if(i == 4){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -81,13 +81,13 @@ public class PlusActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text6.getText().toString());
 
                 if(i == 6){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -104,13 +104,13 @@ public class PlusActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text7.getText().toString());
 
                 if(i == 7){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
@@ -127,13 +127,13 @@ public class PlusActivity extends AppCompatActivity {
                 int i = Integer.parseInt(text10.getText().toString());
 
                 if(i == 10){
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.correctnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
                 }
                 else{
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongvid;
+                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.wrongnew;
                     Intent intent = new Intent(PlusActivity.this, VideoActivity.class);
                     intent.putExtra("vid", videoPath);
                     startActivity(intent);
